@@ -1,0 +1,16 @@
+INSTALLATION
+
+First option:
+If this script is run within an anaconda environment, no additional packages need to be installed. (Refer to https://www.anaconda.com/download/ to download and install anaconda).
+
+Second option:
+Install individual packages:
+1. Scikit-learn (http://scikit-learn.org/stable/install.html)
+2. Numpy (https://docs.scipy.org/doc/numpy-1.15.1/user/install.html)
+3. Scikit-image (http://scikit-image.org/docs/dev/install.html)
+
+USAGE
+
+1. Make sure the datasets (in .csv format) are in the same folder as the script.
+2. Run the script
+3. Once the script is done, an output file is generated with the name 'shanth_output.csv' containing the predicted values in the format requested by Kaggle. This file will be saved in the same directory as the script.
